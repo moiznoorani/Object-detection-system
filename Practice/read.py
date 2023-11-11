@@ -1,6 +1,6 @@
 import cv2 as cv
 
-cat_img = cv.imread('photos/cat_large.jpg')
+cat_img = cv.imread('practice/photos/cat_large.jpg')
 cv.imshow("Cat", cat_img)
 
 capture = cv.VideoCapture(1)
