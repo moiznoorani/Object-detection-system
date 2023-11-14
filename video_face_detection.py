@@ -3,7 +3,7 @@ import numpy as np
 
 
 #detect faces in a video
-capture =cv.VideoCapture(1)
+capture =cv.VideoCapture(0)
 
 while True:
     isTrue, frame = capture.read()
