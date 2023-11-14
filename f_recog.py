@@ -10,7 +10,7 @@ known_face_encoding = face_recognition.face_encodings(known_image)[0]
 known_face_encodings = [known_face_encoding]
 known_face_names = ["Moiz Noorani"]
 
-# Initialize some variables
+# Initialize  variables
 face_locations = []
 face_encodings = []
 
